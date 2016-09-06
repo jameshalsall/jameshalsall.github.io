@@ -1,0 +1,13 @@
+title: James Halsall
+email: james.t.halsall@googlemail.com
+description: >
+  I am a software engineer currently working at Inviqa.
+  I predominantly use PHP, Symfony, Magento and JavaScript.
+  I have a passion for Agile and high quality software.
+baseurl: ""
+url: "http://jameshalsall.github.io"
+twitter_username: jameshalsall
+github_username:  jameshalsall
+
+markdown: kramdown
+theme: minima
