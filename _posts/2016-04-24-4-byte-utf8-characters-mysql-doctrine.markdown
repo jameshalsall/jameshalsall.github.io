@@ -3,6 +3,7 @@ layout: post
 title:  "4 byte UTF-8 characters with Doctrine and MySQL"
 date:   2016-04-24 16:57:39 +0100
 categories: engineering
+slug: 4-byte-utf-8-characters-with-doctrine-and-mysql
 ---
 
 I was recently working on a personal project where I needed to store UTF-8 characters such as emojis in a MySQL TEXT 

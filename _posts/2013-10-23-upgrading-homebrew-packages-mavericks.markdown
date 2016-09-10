@@ -3,6 +3,7 @@ layout: post
 title:  "Upgrading Homebrew packages on OSX Mavericks"
 date:   2013-10-23 12:30:00 +0100
 categories: engineering
+slug: upgrading-homebrew-packages-on-osx-mavericks
 ---
 
 After upgrading to OSX Mavericks today I discovered my PHP 5.5 install (via homebrew) to be broken, which is pretty much

@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Why soft deletes are evil and what to do instead"
-date:   2016-01-23 12:30:00 +0100
+date:   2014-05-27 12:30:00 +0100
 categories: engineering
+slug: why-soft-deletes-are-evil-and-what-to-do-instead
 ---
 
 For a long time I've always thought that soft deletes are the "right way" of deleting records from your database. Like

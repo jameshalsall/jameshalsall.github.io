@@ -3,6 +3,7 @@ layout: post
 title:  "Displaying exception messages in a Symfony production environment"
 date:   2013-10-18 21:30:00 +0100
 categories: engineering
+slug: displaying-exception-messages-in-symfony-production-environments
 ---
 
 When we throw an exception in our Symfony applications, we can be quite lazy and have Symfony catch it for us and

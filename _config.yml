@@ -11,3 +11,5 @@ github_username:  jameshalsall
 
 markdown: kramdown
 theme: minima
+
+permalink: /posts/:slug

@@ -3,6 +3,7 @@ layout: post
 title:  "Truncating tables via Doctrine 2.x in MySQL"
 date:   2013-02-26 14:30:00 +0100
 categories: engineering
+slug: truncating-data-via-doctrine-2-x-in-mysql
 ---
 
 I recently stumbled across a question on

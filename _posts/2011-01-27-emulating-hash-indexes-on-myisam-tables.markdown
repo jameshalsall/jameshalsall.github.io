@@ -3,6 +3,7 @@ layout: post
 title:  "Emulating hash indexes on MyISAM tables"
 date:   2011-01-27 20:30:00 +0100
 categories: engineering
+slug: emulating-mysql-hash-indexes-on-myisam-tables
 ---
 
 Database administration is possibly the scariest concept for me as a developer, mainly because I have neglected it for

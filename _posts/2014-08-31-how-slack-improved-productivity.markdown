@@ -3,6 +3,7 @@ layout: post
 title:  "How Slack improved our productivity"
 date:   2014-08-31 12:30:00 +0100
 categories: productivity
+slug: how-slack-improved-our-productivity
 ---
 
 As programmers we generally hate disruption. We get halfway through writing a test to have someone interrupt our flow

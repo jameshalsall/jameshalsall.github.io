@@ -3,6 +3,7 @@ layout: post
 title:  "Running PHPUnit with HHVM on Mac OSX"
 date:   2014-02-08 12:00:00 +0100
 categories: engineering
+slug: running-phpunit-with-hhvm-on-mac-osx
 ---
 
 If you are a PHP developer who is still yet to hear about HHVM (HipHop Virtual Machine) then you must have been living
