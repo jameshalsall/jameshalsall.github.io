@@ -1,15 +1,36 @@
 title: James Halsall
-email: james.t.halsall@googlemail.com
-description: >
-  I am a software engineer currently working at Inviqa.
-  I predominantly use PHP, Symfony, Magento and JavaScript.
-  I have a passion for Agile and high quality software.
+
+owner:
+  email: james.t.halsall@googlemail.com
+  name: James Halsall
+  twitter: JamesHalsall
+
 baseurl: ""
 url: "http://jameshalsall.github.io"
-twitter_username: jameshalsall
-github_username:  jameshalsall
-
-markdown: kramdown
-theme: minima
+comments: true
 
 permalink: /posts/:slug
+
+links:
+  - title: Github
+    url: https://github.com/jameshalsall
+    external: true
+  - title: Twitter
+    url: http://twitter.com/jameshalsall
+    external: true
+  - title: Stack Overflow
+    url: http://stackoverflow.com/users/603256/jameshalsall
+    external: true
+
+timezone:    Europe/London
+future:      true
+markdown:    kramdown
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+
+sass:
+    style: :compressed
