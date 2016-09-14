@@ -31,9 +31,9 @@ a:hover {
 }
 
 em {
+    font-weight: 600;
     padding: 1px 2px;
     border-radius: 2px;
-    background: #ffe8c0;
 }
 
 strong {
@@ -408,7 +408,6 @@ header.site-header nav {
             
             h1 {
                 font-size: $fs3;
-                font-style: italic;
             }
         }
         
@@ -454,15 +453,11 @@ header.site-header nav {
             margin-bottom: $lh/2;
         }
     }
-    
-    h1 {
-        font-style: italic;
-    }
-    
+
     h1, h2, h3, h4, h5 {
         padding-top: ($lh * 1/2);
         margin-bottom: ($lh * 1/2);
-        line-height: 1.25em
+        line-height: 1.1em
 
     }
     
