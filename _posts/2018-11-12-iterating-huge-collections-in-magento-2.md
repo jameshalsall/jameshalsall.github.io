@@ -27,7 +27,7 @@ A few things are happening here, so let's look at them:
 3. We are creating an iterator and walking through each result in the query by passing a single callback function 
 (notice that we can provide many callbacks here if we wanted to)
 
-The intention here is to only ever load a single row into memory at any time (unless you assign i tot a variable outside 
+The intention here is to only ever load a single row into memory at any time (unless you assign it to a variable outside 
 the scope of the callback function passed to `$iterator->walk()`). If we achieve this then it does not matter how many
 rows we need to process, it should not increase our memory consumption.
 
