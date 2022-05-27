@@ -35,7 +35,7 @@ rows we need to process, it should not increase our memory consumption.
 
 The first thing that might stand out here is that we are not fetching batches of results using MySQL's `OFFSET` and 
 `LIMIT` expressions. This is because [this approach is incredibly wasteful](https://explainextended.com/2009/10/23/mysql-order-by-limit-performance-late-row-lookups/) 
-at the database level. If we issed a query such as `SELECT name FROM users OFFSET 10000 LIMIT 1000` we are basically 
+at the database level. If we issued a query such as `SELECT name FROM users OFFSET 10000 LIMIT 1000` we are basically 
 telling the database to fetch 11000 records and throw the first 10000 away. By avoiding this approach and only executing
 a single query in the database we are being more efficient with our computing resources.
 
@@ -52,7 +52,7 @@ opposite of what we want when dealing with result sets of this magnitude.
 > MySQL Server to PHP and then are kept in the memory of the PHP process."
 > <cite><http://php.net/manual/en/mysqlinfo.concepts.buffering.php></cite>
 
-This concept is called query buffering, and luckily there is a way to turn if off in situations like this. If we turn 
+This concept is called query buffering, and luckily there is a way to turn it off in situations like this. If we turn 
 off query buffering we end up with an unbuffered query result which is held on our database server and  returned to us 
 row-by-row or however we want to fetch it in our PHP process. 
 
@@ -61,7 +61,7 @@ row-by-row or however we want to fetch it in our PHP process.
 > <cite><http://php.net/manual/en/mysqlinfo.concepts.buffering.php></cite>
 
 This is exactly what we want when dealing with a huge result set: a small, predictable memory footprint in our PHP 
-process (which is usually running inside a resource restricted boundary like a docker container). So how do we get
+process (which is usually running inside a resource restricted boundary, e.g. a Docker container). So how do we get
 unbuffered query results in Magento? Let's take a look...
 
 ## Creating an unbuffered query connection
